@@ -1,13 +1,18 @@
-# W&S Consultoria Fiscal - Site v2.0
+# W&S Consultoria Fiscal - Site Portal v3
 
-Versão institucional com foco em:
-- W&S como protagonista
-- Terceirização Fiscal
-- Parametrização Domínio
-- Consultoria Fiscal
-- Treinamentos
-- Biblioteca Fiscal inicial
-- Layout responsivo
+Versão com Home, serviços, conteúdos fiscais, biblioteca, formulário via WhatsApp e estrutura preparada para SEO.
 
-## Como publicar
-Envie todo o conteúdo desta pasta para o repositório do GitHub Pages.
+## Como publicar no GitHub Pages
+1. Extraia o ZIP.
+2. Envie todo o conteúdo da pasta para o repositório.
+3. Confirme as alterações.
+4. Aguarde alguns minutos e acesse o domínio.
+
+## Estrutura
+- index.html
+- css/style.css
+- js/main.js
+- assets/img/
+- servicos/
+- conteudos/
+- biblioteca/
