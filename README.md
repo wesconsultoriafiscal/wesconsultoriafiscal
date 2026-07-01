@@ -1,11 +1,11 @@
 # W&S Consultoria Fiscal
 
-Site institucional em HTML, CSS e JavaScript, pronto para publicação no GitHub Pages.
+Site institucional da W&S Consultoria Fiscal.
 
-## Como publicar
-1. Crie um repositório público no GitHub.
-2. Envie os arquivos `index.html`, pasta `css`, pasta `js` e este README.
-3. Vá em Settings > Pages.
-4. Em Source, selecione Deploy from a branch.
-5. Escolha a branch main e a pasta /root.
-6. Clique em Save.
+## Como publicar no GitHub Pages
+
+1. Envie o conteúdo desta pasta para o repositório.
+2. Vá em Configurações > Páginas.
+3. Em Fonte, selecione: Implantar a partir de uma ramificação.
+4. Em Filial, selecione: principal / raiz.
+5. Clique em Salvar.
