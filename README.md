@@ -1,12 +1,11 @@
-# W&S Consultoria Fiscal - Site v3
+# W&S Consultoria Fiscal
 
-Versão institucional com foco na marca W&S, sem foto pessoal na Home.
+Site institucional da W&S Consultoria Fiscal.
 
-## Como atualizar no GitHub
+## Publicação no GitHub Pages
 
-1. Extraia o arquivo ZIP.
-2. Abra a pasta extraída.
-3. No GitHub, vá em **Adicionar arquivo > Carregar arquivos**.
-4. Arraste todo o conteúdo da pasta: `index.html`, `README.md`, `css`, `js` e `assets`.
-5. Clique em **Confirmar alterações**.
-6. Aguarde 1 a 2 minutos e atualize o site com `Ctrl + F5`.
+1. Envie `index.html`, a pasta `css`, a pasta `js`, a pasta `assets` e este README para o repositório.
+2. Vá em **Settings > Pages**.
+3. Em Source, escolha **Deploy from a branch**.
+4. Em Branch, escolha **principal** e **/(root)**.
+5. Salve e aguarde a publicação.
