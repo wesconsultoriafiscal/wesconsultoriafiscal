@@ -16,3 +16,12 @@ Versão com Home, serviços, conteúdos fiscais, biblioteca, formulário via Wha
 - servicos/
 - conteudos/
 - biblioteca/
+
+
+## Portal v4 — atualização comercial
+- Home redesenhada com identidade corporativa/premium.
+- Nova área de história e posicionamento da W&S.
+- CTA principal para simulação comercial.
+- Nova página `orcamento.html` com simuladores de Terceirização Fiscal e Parametrização Domínio.
+- Envio da simulação diretamente para o WhatsApp da W&S.
+- Navegação interna atualizada com acesso ao simulador.
