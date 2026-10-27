@@ -3,70 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Simule seu orçamento | W&S Consultoria Fiscal</title>
-  <meta name="description" content="Simule uma estimativa para Terceirização Fiscal ou Parametrização Domínio com a W&S Consultoria Fiscal.">
+  <title>Solicite uma proposta | W&S Consultoria Fiscal</title>
+  <meta name="description" content="Solicite uma proposta personalizada para Terceirização Fiscal ou Parametrização Domínio com a W&S Consultoria Fiscal.">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style-v5.css">
 </head>
 <body class="budget-page">
-<header class="site-header" id="topo"><div class="container nav-wrap"><a class="brand" href="index.html"><img src="assets/img/logo-claro.jpg" alt="W&S Consultoria Fiscal"><span>Consultoria Fiscal</span></a><button class="menu-toggle" aria-label="Abrir menu">☰</button><nav class="nav"><a href="index.html#sobre">Quem somos</a><a href="index.html#servicos">Serviços</a><a class="nav-highlight" href="orcamento.html">Simular orçamento</a><a href="index.html#conteudos">Conteúdos</a><a href="index.html#contato">Contato</a></nav><a class="btn btn-small" href="https://wa.me/5511965432991" target="_blank">WhatsApp</a></div></header>
+<header class="site-header" id="topo"><div class="container nav-wrap"><a class="brand" href="index.html"><img src="assets/img/logo-claro.jpg" alt="W&S Consultoria Fiscal"><span>Consultoria Fiscal</span></a><button class="menu-toggle" aria-label="Abrir menu">☰</button><nav class="nav"><a href="index.html#sobre">Quem somos</a><a href="index.html#servicos">Serviços</a><a class="nav-highlight" href="orcamento.html">Solicitar proposta</a><a href="index.html#conteudos">Conteúdos</a><a href="index.html#contato">Contato</a></nav><a class="btn btn-small" href="https://wa.me/5511965432991" target="_blank">WhatsApp</a></div></header>
 
 <main>
 <section class="budget-hero">
   <div class="budget-hero-bg"></div><div class="budget-hero-overlay"></div>
-  <div class="container budget-hero-content"><p class="eyebrow light">SIMULAÇÃO COMERCIAL W&S</p><h1>Descubra uma estimativa para sua operação fiscal.</h1><p>Escolha o serviço, informe os dados da sua carteira e veja o valor estimado na hora. Depois, se fizer sentido, envie a simulação para nossa equipe pelo WhatsApp.</p></div>
+  <div class="container budget-hero-content"><p class="eyebrow light">PROPOSTA COMERCIAL W&S</p><h1>Conte pra gente como é a sua operação fiscal.</h1><p>Informe o serviço desejado, a quantidade de empresas por regime e seus dados de contato. Nossa equipe recebe o resumo e retorna com uma proposta personalizada, sem exibir valores no site.</p></div>
 </section>
 
 <section class="section budget-section">
   <div class="container budget-shell">
-    <div class="budget-intro"><span class="budget-step-label">1. ESCOLHA O SERVIÇO</span><h2>O que você quer simular?</h2><p>Você pode alternar entre os serviços sem perder a navegação da página.</p></div>
-    <div class="budget-tabs" role="tablist">
-      <button class="budget-tab active" data-budget-tab="outsourcing"><span>01</span><div><b>Terceirização Fiscal</b><small>Estimativa mensal por composição da carteira</small></div></button>
-      <button class="budget-tab" data-budget-tab="param"><span>02</span><div><b>Parametrização Domínio</b><small>Estimativa de projeto por composição da carteira</small></div></button>
-    </div>
+    <div class="budget-intro"><span class="budget-step-label">SOLICITAÇÃO DE PROPOSTA</span><h2>Preencha em menos de 1 minuto.</h2><p>Selecione o serviço, informe sua carteira e envie os dados para a equipe comercial da W&S.</p></div>
 
-    <div class="budget-panel active" id="budget-outsourcing">
-      <div class="budget-form-card">
-        <div class="budget-card-head"><span class="budget-step-label">2. INFORME SUA CARTEIRA</span><h3>Quantidade de empresas por regime</h3><p>Informe somente as empresas que fazem parte do escopo fiscal.</p></div>
-        <div class="budget-fields">
-          <label><span>Simples Nacional</span><input id="qtd-sn" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Simples Nacional</small></label>
-          <label><span>Lucro Presumido</span><input id="qtd-lp" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Lucro Presumido</small></label>
-          <label><span>Lucro Real</span><input id="qtd-lr" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Lucro Real</small></label>
-        </div>
-        <div class="budget-extra-fields"><label><span>Nome</span><input id="terc-nome" type="text" placeholder="Seu nome"></label><label><span>Empresa / Escritório</span><input id="terc-empresa" type="text" placeholder="Nome da empresa"></label></div>
-      </div>
-      <aside class="budget-result-card" id="result-terc">
-        <span class="budget-step-label">3. SUA ESTIMATIVA</span><p class="result-kicker">Investimento mensal estimado</p><strong class="result-price" id="terc-price">R$ 0,00</strong><p class="result-caption" id="terc-caption">Informe ao menos uma empresa para calcular.</p>
-        <div class="result-summary" id="terc-summary"><span>Simples Nacional <b>0</b></span><span>Lucro Presumido <b>0</b></span><span>Lucro Real <b>0</b></span></div>
-        <a class="btn btn-green full disabled" id="terc-whatsapp" href="#" target="_blank" rel="noopener">Enviar simulação no WhatsApp</a>
-        <small class="budget-disclaimer">Estimativa inicial. O valor definitivo depende da validação de escopo, volume, particularidades da carteira e responsabilidades da operação.</small>
-      </aside>
-    </div>
+    <div class="budget-panel active lead-panel">
+      <div class="budget-form-card lead-form-card">
+        <form id="proposal-form">
+          <div class="budget-card-head"><span class="budget-step-label">1. SERVIÇO</span><h3>Qual solução você procura?</h3><p>Escolha o serviço que melhor representa sua necessidade.</p></div>
+          <div class="budget-tabs lead-tabs" role="radiogroup">
+            <label class="budget-tab active"><input type="radio" name="servico" value="Terceirização Fiscal" checked><span>01</span><div><b>Terceirização Fiscal</b><small>Operação fiscal recorrente para sua carteira</small></div></label>
+            <label class="budget-tab"><input type="radio" name="servico" value="Parametrização Domínio"><span>02</span><div><b>Parametrização Domínio</b><small>Implantação, revisão e organização fiscal</small></div></label>
+          </div>
 
-    <div class="budget-panel" id="budget-param">
-      <div class="budget-form-card">
-        <div class="budget-card-head"><span class="budget-step-label">2. INFORME O PROJETO</span><h3>Quantidade de empresas por regime</h3><p>Simulação para projetos de parametrização fiscal no sistema Domínio.</p></div>
-        <div class="budget-fields">
-          <label><span>Simples Nacional</span><input id="qtd-param-sn" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Simples Nacional</small></label>
-          <label><span>Lucro Presumido</span><input id="qtd-param-lp" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Lucro Presumido</small></label>
-          <label><span>Lucro Real</span><input id="qtd-param-lr" type="number" min="0" value="0" inputmode="numeric"><small>Quantidade de empresas do Lucro Real</small></label>
-        </div>
-        <div class="budget-extra-fields"><label><span>Nome</span><input id="param-nome" type="text" placeholder="Seu nome"></label><label><span>Empresa / Escritório</span><input id="param-empresa" type="text" placeholder="Nome da empresa"></label></div>
+          <div class="budget-card-head lead-section-head"><span class="budget-step-label">2. CARTEIRA</span><h3>Quantidade de empresas por regime</h3><p>Informe a quantidade aproximada de empresas que fará parte do projeto.</p></div>
+          <div class="budget-fields">
+            <label><span>Simples Nacional</span><input name="sn" type="number" min="0" value="0" inputmode="numeric"><small>Empresas do Simples Nacional</small></label>
+            <label><span>Lucro Presumido</span><input name="lp" type="number" min="0" value="0" inputmode="numeric"><small>Empresas do Lucro Presumido</small></label>
+            <label><span>Lucro Real</span><input name="lr" type="number" min="0" value="0" inputmode="numeric"><small>Empresas do Lucro Real</small></label>
+          </div>
+
+          <div class="budget-card-head lead-section-head"><span class="budget-step-label">3. CONTATO</span><h3>Como podemos falar com você?</h3><p>Esses dados serão usados somente para retorno comercial sobre esta solicitação.</p></div>
+          <div class="budget-extra-fields lead-contact-grid">
+            <label><span>Seu nome</span><input name="nome" type="text" placeholder="Nome completo" required></label>
+            <label><span>Empresa / Escritório</span><input name="empresa" type="text" placeholder="Nome da empresa" required></label>
+            <label><span>WhatsApp</span><input name="telefone" type="tel" placeholder="(11) 99999-9999" required></label>
+            <label><span>E-mail</span><input name="email" type="email" placeholder="voce@empresa.com.br" required></label>
+          </div>
+          <label class="lead-notes"><span>Observações <small>(opcional)</small></span><textarea name="observacoes" rows="4" placeholder="Conte algo importante sobre sua operação, prazo, sistema ou necessidade."></textarea></label>
+
+          <div class="lead-submit-box">
+            <button class="btn btn-green btn-large" type="submit">Solicitar proposta pelo WhatsApp →</button>
+            <p>Ao continuar, o WhatsApp será aberto com sua solicitação já preenchida para envio à W&S.</p>
+          </div>
+        </form>
       </div>
-      <aside class="budget-result-card" id="result-param">
-        <span class="budget-step-label">3. SUA ESTIMATIVA</span><p class="result-kicker">Investimento estimado do projeto</p>
-        <strong class="result-price" id="param-price">R$ 0,00</strong>
-        <p class="result-caption" id="param-caption">Informe ao menos uma empresa para calcular.</p>
-        <div class="result-summary" id="param-summary"><span>Simples Nacional <b>0</b></span><span>Lucro Presumido <b>0</b></span><span>Lucro Real <b>0</b></span></div>
-        <a class="btn btn-green full disabled" id="param-whatsapp" href="#" target="_blank" rel="noopener">Enviar simulação no WhatsApp</a>
-        <small class="budget-disclaimer">Estimativa inicial para parametrização fiscal. O valor final poderá variar após validação do escopo, complexidade e condição dos cadastros atuais.</small>
+
+      <aside class="budget-result-card lead-side-card">
+        <span class="budget-step-label">ATENDIMENTO PERSONALIZADO</span>
+        <h3>Sem tabela pública. Sem orçamento genérico.</h3>
+        <p>Cada carteira tem particularidades próprias. Por isso, a W&S analisa o volume, o regime das empresas e o escopo antes de apresentar uma proposta comercial.</p>
+        <div class="result-summary lead-summary">
+          <span>✓ Retorno comercial personalizado</span>
+          <span>✓ Análise da composição da carteira</span>
+          <span>✓ Escopo adequado à sua operação</span>
+          <span>✓ Atendimento nacional</span>
+        </div>
+        <a class="btn btn-light full" href="mailto:wesconsultoriafiscal@gmail.com">Prefiro falar por e-mail</a>
+        <small class="budget-disclaimer">Nenhum valor é calculado ou exibido nesta página.</small>
       </aside>
     </div>
   </div>
 </section>
 
-<section class="budget-help"><div class="container budget-help-grid"><div><p class="eyebrow light">PRECISA DE ALGO DIFERENTE?</p><h2>Consultoria, treinamento ou projeto especial?</h2><p>Nem toda necessidade cabe em uma calculadora. Para escopos personalizados, fale diretamente com a nossa equipe.</p></div><a class="btn btn-light" href="https://wa.me/5511965432991" target="_blank">Falar com a W&S</a></div></section>
+<section class="budget-help"><div class="container budget-help-grid"><div><p class="eyebrow light">PRECISA DE ALGO DIFERENTE?</p><h2>Consultoria, treinamento ou projeto especial?</h2><p>Fale diretamente com a nossa equipe. Podemos desenhar um escopo específico para sua necessidade.</p></div><a class="btn btn-light" href="https://wa.me/5511965432991" target="_blank">Falar com a W&S</a></div></section>
 </main>
 <footer class="footer"><div class="container footer-grid"><div><img src="assets/img/logo-claro.jpg" alt="Logo W&S"><p>W&S Consultoria Fiscal — estrutura, técnica e operação para o setor fiscal.</p></div><div><strong>Navegação</strong><a href="index.html">Início</a><a href="index.html#servicos">Serviços</a><a href="index.html#contato">Contato</a></div><div><strong>Contato</strong><a href="mailto:wesconsultoriafiscal@gmail.com">wesconsultoriafiscal@gmail.com</a><a href="https://wa.me/5511965432991">(11) 96543-2991</a></div></div></footer>
 <a class="whatsapp-float" href="https://wa.me/5511965432991" target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.84 9.84 0 0 0-8.42 14.94L2.05 22l5.18-1.5A9.96 9.96 0 1 0 12.04 2Zm0 17.98a8.02 8.02 0 0 1-4.09-1.12l-.29-.17-3.08.89.92-2.99-.19-.31A7.9 7.9 0 1 1 12.04 19.98Zm4.42-5.92c-.24-.12-1.43-.7-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.02-.37-1.94-1.19a7.24 7.24 0 0 1-1.34-1.66c-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.09 3.62.57.25 1.02.4 1.37.51.58.18 1.1.16 1.51.1.46-.07 1.43-.59 1.63-1.15.2-.56.2-1.04.14-1.15-.06-.1-.22-.16-.46-.28Z"/></svg></a><script src="js/main.js"></script>
